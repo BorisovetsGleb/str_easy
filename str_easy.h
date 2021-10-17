@@ -1,0 +1,22 @@
+#ifndef STR_EASY_H_INCLUDED
+#define STR_EASY_H_INCLUDED
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+string itc_hello_str(string name);
+long long itc_len(string itc);
+void itc_print_copy_str(string str, int i);
+void itc_first_end_three(string str);
+int itc_count_char_in_str(char a, string str);
+string itc_even_place(string str);
+double itc_percent_lower_uppercase(string str);
+string itc_reverse_str(string str);
+string itc_slice_str(string str, int a, int b);
+bool itc_equal_reverse(string str);
+string itc_cmp_str(string str1, string str2, int i);
+int itc_find_str(string str1, string str2);
+
+#endif // STR_EASY_H_INCLUDED
