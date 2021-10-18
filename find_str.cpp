@@ -37,5 +37,7 @@ int itc_find_str(string str1, string str2)
         }
         i2 ++;
     }
+    if(i < len2 - 1)
+        return -1;
     return out;
 }
