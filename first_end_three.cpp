@@ -4,11 +4,11 @@ void itc_first_end_three(string str)
 {
     long long len = itc_len(str);
     //cout <<str;
-    long long i;
+    long long i = 0;
     //std::cout <<len;
     if(len <= 5)
     {
-        while(i <= len)
+        while(i < len)
         {
             std::cout <<str[0];
             i ++;
