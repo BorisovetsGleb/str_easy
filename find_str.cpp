@@ -11,9 +11,13 @@ int itc_find_str(string str1, string str2)
     {
         if(str1[i2] == str2[i])
         {
+           //cout <<"str1 == str2  ";
             if(len2 == 1)
+            {
+                isFind = 1;
                 out = i2;
-            if(i < len2)
+            }
+            if(i <= len2)
             {
                 if(i == 0)
                     out = i2;
