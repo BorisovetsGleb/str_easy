@@ -19,4 +19,5 @@ bool itc_equal_reverse(string str);
 string itc_cmp_str(string str1, string str2, int i);
 int itc_find_str(string str1, string str2);
 string itc_three_str(string str1, string str2, string str3);
+int itc_max_char_of_end(string str);
 #endif // STR_EASY_H_INCLUDED
