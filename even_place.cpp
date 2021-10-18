@@ -9,7 +9,7 @@ string itc_even_place(string str)
         return "-1";
     while (str[i] != '\0')
     {
-        if(i % 2 == 1)
+        if((i + 1) % 2 == 0)
             out = out + str[i];
         i ++;
     }
