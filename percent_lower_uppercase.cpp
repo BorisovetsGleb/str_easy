@@ -2,17 +2,17 @@
 
 double itc_percent_lower_uppercase(string str)
 {
-    double stro, prop;
+    double stro = 0, prop = 0;
     double i = 0;
-    double out;
+    double out = 0;
     while (str[i] != '\0')
     {
-        if(str[i] > 65 && str[i] < 90)
-            prop ++;
-        if(str[i] > 97 && str[i] < 122)
-            stro ++;
+        if(str[i] >= 'A' && str[i] <= 'Z')
+            prop = prop + 1;
+        if(str[i] >= 'a' && str[i] <= 'z')
+            stro = stro + 1;
         i ++;
     }
-    out = prop / stro;
-    return out * 100;
+    out = stro / prop;
+    return out;
 }
