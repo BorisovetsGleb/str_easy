@@ -1,6 +1,6 @@
 #include "str_easy.h"
 
-int itc_max_char_of_end(string str)
+int itc_max_char_on_end(string str)
 {
     int i1 = 0, i2 = 0, i = 0;
     bool PrIsNum = 0;
