@@ -4,7 +4,9 @@ string itc_cmp_str(string str1, string str2, int i)
 {
     long long len = itc_len(str1);
     long long len2 = itc_len(str2);
-    string out;
+    if(i < 0)
+        return "-1";
+    string out = "";
     i = i - 1;
     int b = 0;
     int c = 0;
@@ -26,5 +28,6 @@ string itc_cmp_str(string str1, string str2, int i)
         b ++;
         //cout <<"  ";
     }
+    //cout <<"OUT = " <<out <<"  ";
     return out;
 }
