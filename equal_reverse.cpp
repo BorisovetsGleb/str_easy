@@ -2,8 +2,5 @@
 
 bool itc_equal_reverse(string str)
 {
-    string str2 = itc_reverse_str(str);
-    if(str2 == str)
-        return 1;
-    return 0;
+    return (str == itc_reverse_str(str));
 }
