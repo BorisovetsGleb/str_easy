@@ -6,7 +6,7 @@ string itc_even_place(string str)
     long long i = 0;
     while (str[i] != '\0')
     {
-        if(i % 2 == 0)
+        if(i % 2 == 1)
             out = out + str[i];
         i ++;
     }
