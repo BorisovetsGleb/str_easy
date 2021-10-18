@@ -2,7 +2,7 @@
 
 string itc_even_place(string str)
 {
-    string out;
+    string out = "";
     long long i = 0;
     long long len = itc_len(str);
     if(len < 2)
