@@ -13,6 +13,10 @@ double itc_percent_lower_uppercase(string str)
             stro = stro + 1;
         i ++;
     }
+    if(prop == 0 && stro == 0)
+        return -1;
+    if(prop == 0)
+        return 1;
     out = stro / prop;
     return out;
 }

@@ -41,7 +41,9 @@ int itc_find_str(string str1, string str2)
         }
         i2 ++;
     }
-    if(i < len2 - 1)
+    //cout <<"i = " <<i <<" ";
+    //cout <<"len2 = " <<len2 <<" ";
+    if(i < len2)
         return -1;
     return out;
 }
