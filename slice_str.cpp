@@ -3,13 +3,13 @@
 string itc_slice_str(string str, int start, int endd)
 {
     long long len = itc_len(str);
-    int end2 = start;
-    start = endd;
+    //int end2 = start;
+    //start = endd;
     string out = "";
-    int i = start - 1;
-    if(start > end2)
+    int i = start - 0;
+    if(start > endd)
         return str;
-    while (i <= (end2 - 1))
+    while (i <= (endd))
     {
         if(i < len)
         {
